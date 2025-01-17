@@ -32,8 +32,6 @@
                 "Securas\\LaravelCyberShield\\CyberShieldServiceProvider"
             ]
         }
-    },
-    "require-dev": {
-        "../../../vendor/phpunit/phpunit": "^9.4"
     }
+
 }
