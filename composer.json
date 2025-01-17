@@ -1,0 +1,39 @@
+{
+    "name": "securas-sas/laravel-cyberShield",
+    "description": "Web Application Firewall for Laravel using CyberShield API",
+    "type": "package",
+    "homepage": "https://github.com/Securas-sas/laravel-cybershield",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "",
+            "email": "contact@securas.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Securas\\LaravelCyberShield\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Securas\\LaravelCyberShield\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Securas\\LaravelCyberShield\\CyberShieldServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "../../../vendor/phpunit/phpunit": "^9.4"
+    }
+}
