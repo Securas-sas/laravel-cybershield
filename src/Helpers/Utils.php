@@ -1,7 +1,7 @@
 <?php
 namespace  Securas\LaravelCyberShield\Helpers;
 use Illuminate\Support\Facades\URL;
-use  cybershield\src\Api\CyberShieldApi;
+use  Securas\LaravelCyberShield\Api\CyberShieldApi;
 use Symfony\Component\HttpFoundation\Request as globalRequest;
 
 class Utils

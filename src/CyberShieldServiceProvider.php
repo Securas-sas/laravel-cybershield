@@ -4,8 +4,8 @@ namespace Securas\LaravelCyberShield;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use cybershield\src\Commands\CyberShieldApiKeyVerifyCommand;
-use cybershield\src\Middleware\CyberShieldMiddleware;
+use Securas\LaravelCyberShield\Commands\CyberShieldApiKeyVerifyCommand;
+use Securas\LaravelCyberShield\Middleware\CyberShieldMiddleware;
 /**
  * Laravel base service provider.
  *

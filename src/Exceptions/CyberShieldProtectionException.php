@@ -2,7 +2,7 @@
 
 namespace Securas\LaravelCyberShield\Exceptions;
 
-use packages\laraveluse packages\laraveluse packages\laravel/**
+/**
  * Exception raised when a blacklist matched the
  * associated HTTP parameter. For example, blacklisted
  * Accept-Language or IP address.

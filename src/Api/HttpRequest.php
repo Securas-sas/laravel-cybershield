@@ -2,7 +2,7 @@
 
 namespace  Securas\LaravelCyberShield\Api;
 
-use packages\laraveluse packages\laraveluse packages\laravel/**
+/**
  * @package Securas\LaravelCyberShield\Api\HttpRequest
  *
  * @version 1.0.0

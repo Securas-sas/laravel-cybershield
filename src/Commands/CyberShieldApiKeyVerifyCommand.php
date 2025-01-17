@@ -5,9 +5,9 @@ namespace Securas\LaravelCyberShield\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use cybershield\src\Api\CyberShieldApi;
-use cybershield\src\Exceptions\CyberShieldProtectionException;
-use cybershield\src\Helpers\Utils;
+use Securas\LaravelCyberShield\Api\CyberShieldApi;
+use Securas\LaravelCyberShield\Exceptions\CyberShieldProtectionException;
+use Securas\LaravelCyberShield\Helpers\Utils;
 use Illuminate\Support\Facades\Config;
 use Symfony\Component\Console\Command\Command as CommandAlias;
 
@@ -42,7 +42,7 @@ class CyberShieldApiKeyVerifyCommand extends Command {
 	/**
 	 * Build the command instance and inject dependencies.
 	 *
-	 * @param cybershield\src\Api\CyberShieldApi $cyberShieldApi
+	 * @param Securas\LaravelCyberShield\Api\CyberShieldApi $cyberShieldApi
 	 */
 	public function __construct(CyberShieldApi $cyberShieldApi) {
 		parent::__construct() ;

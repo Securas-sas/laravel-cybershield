@@ -3,9 +3,9 @@
 namespace Securas\LaravelCyberShield\Middleware;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
-use cybershield\src\Api\CyberShieldApi;
-use cybershield\src\Exceptions\CyberShieldProtectionException;
-use cybershield\src\Helpers\Utils;
+use Securas\LaravelCyberShield\Api\CyberShieldApi;
+use Securas\LaravelCyberShield\Exceptions\CyberShieldProtectionException;
+use Securas\LaravelCyberShield\Helpers\Utils;
 
 
 /**
@@ -16,7 +16,7 @@ use cybershield\src\Helpers\Utils;
  */
 class CyberShieldMiddleware {
     /**
-     * @var cybershield\src\Api\CyberShieldApi
+     * @var Securas\LaravelCyberShield\Api\CyberShieldApi
      */
     public $cyberShieldApi;
 

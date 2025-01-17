@@ -2,7 +2,7 @@
 namespace Securas\LaravelCyberShield\Controllers;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller as BaseController;
-use cybershield\src\Helpers\Utils;
+use Securas\LaravelCyberShield\Helpers\Utils;
 
 /**
  * @author Securas

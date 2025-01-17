@@ -1,7 +1,8 @@
 <?php
 
 namespace Securas\LaravelCyberShield\Api;
-use packages\laraveluse packages\laraveluse  cybershield\src\Helpers\Utils;use packages\laravel
+use Securas\LaravelCyberShield\Helpers\Utils;
+
 
 /**
  *

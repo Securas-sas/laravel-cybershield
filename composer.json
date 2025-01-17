@@ -1,5 +1,5 @@
 {
-    "name": "securas-sas/laravel-cyberShield",
+    "name": "securas-sas/laravel-cybershield",
     "description": "Web Application Firewall for Laravel using CyberShield API",
     "type": "package",
     "homepage": "https://github.com/Securas-sas/laravel-cybershield",
