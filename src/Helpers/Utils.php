@@ -12,10 +12,8 @@ class Utils
    */
   public static function getApiUrl(){
 
-    if ( config('cybershield.sandbox',false) ) {
-         return 'https://cyber-test.securas.cloud/api/';
-    }
-    return 'https://shield.securas.cloud/api/';
+      return 'https://shield.securas.cloud/api/';
+
   }
   /**
    * @param $value

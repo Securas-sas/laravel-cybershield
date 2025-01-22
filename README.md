@@ -30,14 +30,12 @@ go to config/cybershield.php and set the parameters
 | `enabled`         | CyberShield enabled or disabled.                   |
 | `api_key`         | CyberShield API key.                               |
 | `email_address`   | CyberShield Email Adress .                         |
-| `sabdbox`         | Enable/ Disable CyberShield middleware true/false. |
 
 ex.
 ```
 enabled=true
 api_key=****************
 email_address=contact@*****.com
-sabdbox=false
 ```
 
 
