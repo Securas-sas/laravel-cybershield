@@ -6,7 +6,7 @@ This is a WAF (Web Application Firewall) using CyberShield API (Laravel only)
 
 ## Install
 ```
-composer require securas-sas/laravel-cybershield
+composer require "securas-sas/laravel-cybershield @dev"
 ```
 
 ## Using
